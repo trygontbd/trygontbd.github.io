@@ -1,0 +1,33 @@
+body {
+        background-color:#04A777;
+}
+
+h1 {
+        text-align:center;
+        color: #F6F4F3;
+}
+
+p {
+    color:#98C1D9;
+    font-family:Verdana;
+    font-size:20px;
+}
+
+ol {
+        color:#0000ff;
+}
+
+#one {
+    background-color:#F2CEE6;
+    position:absolute;
+    left:150px;
+    width:90%;
+    height:40px;
+    border-style:solid;
+    border-color:black;
+    border-width:10px;
+}
+
+#two {
+    background-color:#E8DCB9;
+}
