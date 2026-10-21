@@ -45,3 +45,7 @@ div p {
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
+a[href="https://www.google.com"] {
+    font-style: italic;
+  }
