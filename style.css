@@ -1,33 +1,47 @@
 body {
-        background-color:#04A777;
+    background-color: #04A777;
 }
 
 h1 {
-        text-align:center;
-        color: #F6F4F3;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: #F6F4F3;
 }
 
 p {
-    color:#98C1D9;
-    font-family:Verdana;
-    font-size:20px;
+    color: #98C1D9;
+    font-family: Verdana;
+    font-size: 2em;
 }
 
 ol {
-        color:#0000ff;
+    color: #0000ff;
 }
 
 #one {
-    background-color:#F2CEE6;
-    position:absolute;
-    left:150px;
-    width:90%;
-    height:40px;
-    border-style:solid;
-    border-color:black;
-    border-width:10px;
+    background-color: #F2CEE6;
+    border-style: solid;
+    border-color: black;
+    border-width: 2em;
 }
 
 #two {
-    background-color:#E8DCB9;
+    background-color: #E8DCB9;
+}
+
+@keyframes myAnimation {
+    from {
+        color: red;
+    }
+
+    to {
+        color: yellow;
+    }
+}
+
+div p {
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
