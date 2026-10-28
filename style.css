@@ -21,13 +21,24 @@ ol {
 
 #one {
     background-color: #F2CEE6;
-    border-style: solid;
-    border-color: black;
-    border-width: 2em;
+    padding: 1em;
+}
+
+#one>p {
+    color: firebrick;
+    margin: 1em;
+    border-top-style: dotted;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: firebrick;
+    border-width: 1em;
+    border-bottom-left-radius: 100px;
 }
 
 #two {
-    background-color: #E8DCB9;
+    background: radial-gradient(circle, red, yellow);
+    padding-left: 11em;
 }
 
 @keyframes myAnimation {
@@ -44,7 +55,7 @@ ol {
     }
 }
 
-div p {
+#two>p {
     animation-name: myAnimation;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -53,3 +64,7 @@ div p {
 a[href="https://www.google.com"] {
     font-style: italic;
   }
+
+a[href="columns.html"]:hover {
+    color: #04A777;
+}

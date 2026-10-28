@@ -1,0 +1,49 @@
+/* Core Grid Setup */
+.grid-container {
+    color: whitesmoke;
+    display: grid;
+    /* Creates 3 columns: 1 fraction for sidebars, 2 fractions for the main content */
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1em;
+    /* Space between columns */
+    padding: 1em;
+    max-width: auto;
+    margin: 0 auto;
+    /* Centers the container on the screen */
+}
+
+/* Base Column Styling */
+.column {
+    background-color: gray;
+    padding: 1em;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+/* Above is web code. Below is my take on integrating it with the book's model. */
+.bencol {
+    background-color: azure;
+    padding: 1em;
+    margin: 1em;
+    height: 3em;
+    border-radius: 0px 0px 0px 30px;
+    border: 5px groove blue;
+}
+
+.col-lef {
+    float: left;
+    width: 20%;
+}
+
+.col-mid {
+    float: left;
+    width: 40%;
+}
+
+.col-rig {
+    float: right;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
