@@ -15,6 +15,17 @@ p {
     font-size: 2em;
 }
 
+#navmenu ul {
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#navmenu ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+
 ol {
     color: #0000ff;
 }
