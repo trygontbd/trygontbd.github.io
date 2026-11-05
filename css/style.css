@@ -1,0 +1,162 @@
+body {
+    background-color: #04A777;
+    width: 95%;
+    font-size: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    color: #F6F4F3;
+}
+
+p {
+    color: #98C1D9;
+    font-family: Verdana;
+    font-size: 2em;
+}
+
+#oldcomp {
+    width: 40%; 
+    display: block; 
+    margin: 0 auto;
+}
+
+/*gonna change this to flexbox asap*/
+#navmenu ul {
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#navmenu ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+
+ol {
+    color: #0000ff;
+}
+
+@media (max-width: 706px) {
+    #navmenu {
+        font-size: x-small;
+    }
+}
+
+@media (max-width: 1169px) {
+    .col-lef {
+        width: 10%;
+    }
+    
+    .col-mid {
+        width: 30%;
+    }
+    
+    .col-rig {
+        width: 10%;
+    }
+}
+
+#one {
+    background-color: #F2CEE6;
+    padding: 1em;
+}
+
+#one>p {
+    color: firebrick;
+    margin: 1em;
+    border-top-style: dotted;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: firebrick;
+    border-width: 1em;
+    border-bottom-left-radius: 100px;
+}
+
+#two {
+    background: radial-gradient(circle, red, yellow);
+    padding-left: 11em;
+}
+
+@keyframes myAnimation {
+    from {
+        color: red;
+    }
+
+    50% {
+        color: yellow;
+    }
+
+    to {
+        color: red;
+    }
+}
+
+#two>p {
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+a[href="https://www.google.com"] {
+    font-style: italic;
+  }
+
+a[href="columns.html"]:hover {
+    color: #04A777;
+}
+
+/* columns css */
+/* Core Grid Setup */
+.grid-container {
+    color: whitesmoke;
+    display: grid;
+    /* Creates 3 columns: 1 fraction for sidebars, 2 fractions for the main content */
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 1em;
+    /* Space between columns */
+    padding: 1em;
+    max-width: auto;
+    margin: 0 auto;
+    /* Centers the container on the screen */
+}
+
+/* Base Column Styling */
+.column {
+    background-color: gray;
+    padding: 1em;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+}
+/* Above is web code. Below is my take on integrating it with the book's model. */
+.bencol {
+    background-color: azure;
+    padding: 1em;
+    margin: 1em;
+    height: 3em;
+    border-radius: 0px 0px 0px 30px;
+    border: 5px groove blue;
+}
+
+.col-lef {
+    float: left;
+    width: 20%;
+}
+
+.col-mid {
+    float: left;
+    width: 40%;
+}
+
+.col-rig {
+    float: right;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+/* end column styling */
