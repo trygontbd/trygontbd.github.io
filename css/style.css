@@ -59,28 +59,6 @@ ol {
     }
 }
 
-#one {
-    background-color: #F2CEE6;
-    padding: 1em;
-}
-
-#one>p {
-    color: firebrick;
-    margin: 1em;
-    border-top-style: dotted;
-    border-right-style: none;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-color: firebrick;
-    border-width: 1em;
-    border-bottom-left-radius: 100px;
-}
-
-#two {
-    background: radial-gradient(circle, red, yellow);
-    padding-left: 11em;
-}
-
 @keyframes myAnimation {
     from {
         color: red;
@@ -93,12 +71,6 @@ ol {
     to {
         color: red;
     }
-}
-
-#two>p {
-    animation-name: myAnimation;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
 }
 
 a[href="https://www.google.com"] {
