@@ -51,14 +51,14 @@ body {
 
 /*adapted original grid for simpler pages*/
 .page-grid {
-display: grid;
-min-height: 100vh;
-grid-template-columns: 1fr;
-grid-template-rows: auto 1fr auto;
-grid-template-areas:
-    "header"
-    "main"
-    "footer";
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
 }
 
 /* 3. Flexbox Navbar */
@@ -121,6 +121,7 @@ grid-template-areas:
         border-top: 1px solid #ddd;
     }
 }
+
 /*imported old styling from v1*/
 h1 {
     text-align: center;
@@ -136,8 +137,8 @@ p {
 }
 
 #oldcomp {
-    width: 40%; 
-    display: block; 
+    width: 40%;
+    display: block;
     margin: 0 auto;
 }
 
@@ -145,4 +146,4 @@ figcaption {
     text-align: center;
     font-size: x-large;
     color: #333;
-  }
+}
