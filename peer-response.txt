@@ -1,0 +1,11 @@
+Enhance your navigation bar styling or media queries so that elements don't wrap awkwardly or drop to a second line when the browser window is resized or viewed on medium screens.
+Flexbox navbar added to all pages
+
+As you transition the site to feature old computer content, incorporate CSS grids or flexbox containers to neatly organize text blocks and prevent walls of text.
+Grids and flexboxes implemented across all sites
+
+The website just needs more content. The formatting for things are great though! 
+Added new pages for different old mainframes and generated some meaningless AI filler
+
+More images would really make your site pop, although I do like how the one image perfectly scales with the size of the window that you view it from. If you included more images that all had that property it would do great.
+Added images of them all, too

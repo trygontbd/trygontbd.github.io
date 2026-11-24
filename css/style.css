@@ -147,3 +147,14 @@ figcaption {
     font-size: x-large;
     color: #333;
 }
+
+/*google-provided CSS*/
+.bbh-bogle-regular {
+    font-family: "BBH Bogle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.maintitle {
+    font-family: "BBH Bogle", sans-serif;
+}
